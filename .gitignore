@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging and builds
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+
+# Test, coverage, lint, and type-check caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Compiled Grasshopper wrapper
+**/bin/
+**/obj/
